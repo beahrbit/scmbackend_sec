@@ -13,19 +13,19 @@ namespace WebApplicationIBSYS.Controllers
     [ApiController]
     public class XmlUploadController : ControllerBase
     {
-        public IWebHostEnvironment _environment;
+        public static IWebHostEnvironment _environment;
         public XmlUploadController(IWebHostEnvironment environment)
         {
             _environment = environment;
         }
 
-        public class XmlUploadAPI
+        public class XmlUpload
         {
             public IFormFile files { get; set; }
         }
 
         [HttpPost]
-        public async Task<string> Post (XmlUploadAPI objFile)
+        public async Task<string> Post ([FromForm] XmlUpload objFile)
         {
             try
             {
