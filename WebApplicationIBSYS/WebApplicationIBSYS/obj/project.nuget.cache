@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q/hSqYCn9ycZGG3jXCkMNGCKwV8p6uuOXffAQlEP78JWdsYFeyiLVK0MCb2hZX6Wcnb1ljFkj2CpnIK7Lq2j3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\U2SQKRE\\source\\repos\\WebApplicationIBSYS\\WebApplicationIBSYS\\WebApplicationIBSYS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\U2SQKRE\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
